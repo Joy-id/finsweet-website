@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+    header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 14px 10px; 
+     }
+
+     header .Logo {
+      font-size: 9px;
+      margin-right: 250px;
+      margin-left: 100px;
+     }
+
+     nav {
+      display: flex;
+      align-items: center;
+      column-gap: 5%;
+      }
+
+       nav ul {
+        display: flex;
+        align-items: center;
+        column-gap: 40px;
+        border-right: 1px solid rgb(245, 233, 233);
+        padding: 5px 20px 5px 0px;
+        margin-left: 10px;
+        }
+
+          nav ul li {
+            list-style: none;
+            width: 59px;
+            }
+
+          nav .Contact {
+            display: flex;
+            align-items: center;
+            column-gap: 0px;
+            margin-left: 0px;
+            margin-right: 150px;
+            }
+
+         nav .Contact .Contact-Text p {
+            font-size: 10px;
+            line-height: 15px;
+            width: 100%;
+            margin-right: 200px;
+            margin-left: 10px;
+             }
+
+          main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 91vh;
+            width: 80%;
+            margin-left: 160px;
+            }
+         
+            main .container {
+                display: flex;
+                width: 100%;
+                height: 80%;
+                
+                }
+
+                main .container .left {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: 80px;
+                margin-right: 15px;
+                width: 50%;
+                height: 100%;
+                }
+
+                main .container .left .Service-button {
+                   background-color: #FF6433; 
+                    color: white;  
+                    width: 30%; 
+                    height: 9%;
+                    font-size: 15px; 
+                    margin-top: 30px;
+                    border-radius: 10px 10px 10px 10px;
+                }
+                
+                main .container .left .left-Business-Schedule {
+                  display: flex;
+                  flex-direction: row;
+                  gap: 10px;
+                  align-items: center;
+                  width: 100%;
+                  margin-top: 20px;
+                }
+                
+            main .container .left .left-Business-Days {
+              display: flex;
+              flex-direction: column;
+              margin-top: 20px;
+              margin-bottom: 20px;   
+            }
+
+            
+            main .container .left .left-Business-hours {
+            display: flex;
+            flex-direction: column;
+            column-gap: 2px;
+            margin-left: 0px
+            }
+
+            main .container .right {
+            width: 50%;
+            height: 100%;
+            margin-left: 15px;
+            margin-right: 45px;
+            background-position: center;
+            background-size: cover;
+            background-image: url('./Imgs/Image.png');
+            background-repeat: no-repeat;
+            }
+
+            main .container .right .Service {
+            position: absolute;
+            margin-left: -60px;
+            }
+
+           main .container .right .Rating {
+           position: absolute;
+           margin-top: 300px;
+           margin-left: 274px;
+           }
+
+
